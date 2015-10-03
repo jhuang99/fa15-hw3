@@ -1,0 +1,16 @@
+<h1>  All Users: <h1>
+<% @users.each do |u| %>
+	<%= u.name %>
+	<%= u.email %> </p>
+<% end %>
+
+<h1>  All Cats: <h1>
+<% @cats.each do |p| %>
+	<%= p.meow %>
+	<%= p.name %> </p>
+<% end %>
+
+<% @todo.each do |t| %>
+	<%= t.tasks %>
+	<%= t.finished %> </p>
+<% end %>
